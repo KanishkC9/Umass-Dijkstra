@@ -7,7 +7,7 @@ if __name__ == '__main__':
     argv_len = len(sys.argv)
     inputFile = 'locations.text'
 
-campusLocations = [
+campusLocations = [ # will create an api for this
   { "name": "Agricultural Engineering Bldgs.", "children": ['Hatch', 'Holdsworth', 'Cold Storage Bldg.', 'Chenoweth', 'Bowditch Greenhouses'] },
   { "name": "Agricultural Learning Center", "children": [] },
   { "name": "Alfond", "children": ['Isenberg School of Management','Mahar Auditorium','Haigis Mall' ] },
@@ -32,10 +32,10 @@ campusLocations = [
   { "name": "Brooks", "children": ['Brett','University Health Center', 'New Africa', 'Baker'] },
   { "name": "Brown", "children": ['Cashin', 'McNamara', 'North A' ] },
   { "name": "Butterfield", "children": ['Van Meter'] },
-  { "name": "Campus Center", "children": [] },
-  { "name": "Campus Center Parking Garage", "children": [] },
-  { "name": "Campus Pond,", "children": [] },
-  { "name": "Cance", "children": [] },
+  { "name": "Campus Center", "children": ['Hasbrouck', 'Integrative Learning Center', 'Student Union', 'Campus Center Parking Garage'] },
+  { "name": "Campus Center Parking Garage", "children": ['Campus Center', 'Student Union', 'Machmer', 'Flint Laboratory'] },
+  { "name": "Campus Pond,", "children": ['Du Bois Library, W.E.B', 'Old Chapel', 'Memorial Hall', 'Fine Arts Center', 'Integrative Learning Center', 'Student Union'] },
+  { "name": "Cance", "children": ['Pierpont', 'Washington', 'Berkshire Dining' ] },
   { "name": "Cashin", "children": [] },
   { "name": "Central Heating Plant", "children": [] },
   { "name": "Central Stores (Physical Plant)", "children": [] },
