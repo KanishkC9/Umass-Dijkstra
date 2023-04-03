@@ -7,7 +7,8 @@ if __name__ == '__main__':
     argv_len = len(sys.argv)
     inputFile = 'locations.text'
 
-# make this a dict instead of a list for time complexity
+#Add Curry Hicks 
+# make this a dict instead of a list for time complexity 
 campusLocations = [ # will create an api for this
   { "name": "Agricultural Engineering Bldgs.", "children": ['Hatch', 'Holdsworth', 'Cold Storage Bldg.', 'Chenoweth', 'Bowditch Greenhouses'] },
   { "name": "Agricultural Learning Center", "children": [] },
@@ -139,15 +140,15 @@ campusLocations = [ # will create an api for this
   { "name": "Martin Jacobson Football Performance Center", "children": ['McGuirk Alumni Stadium', 'Farley Lodge'] },
   { "name": "McGuirk Alumni Stadium", "children": ['Martin Jacobson Football Performance Center'] },
   { "name": "McNamara", "children": ['Brown', 'Cashin'] },
-  { "name": "Melville", "children": [] },
-  { "name": "Memorial Hall", "children": [] },
-  { "name": "Middlesex", "children": [] },
-  { "name": "Montague House", "children": [] },
-  { "name": "Moore", "children": [] },
-  { "name": "Morrill Science Center", "children": [] },
-  { "name": "Mullins Center", "children": [] },
-  { "name": "Mullins Practice Rink", "children": [] },
-  { "name": "Munson", "children": [] },
+  { "name": "Melville", "children": ['James', 'Thoreau','Army ROTC Bldg.'] },
+  { "name": "Memorial Hall", "children": ['Old Chapel', 'Herter', 'Campus Pond', 'Fine Arts Center', 'Bartlett'] },
+  { "name": "Middlesex", "children": ['Berkshire', 'Hampshire','Whitmore Administration','Munson'] },
+  { "name": "Montague House", "children": ['Furcolo', 'North C'] },
+  { "name": "Moore", "children": ['Pierpont', 'Berkshire Dining', 'Hampden dining', 'Emerson'] },
+  { "name": "Morrill Science Center", "children": ['Wilder', 'University Club', 'Shade Tree Laboratory', 'Clark', 'Integrative Learning Center', 'Skinner', 'Life Science Lab'] },
+  { "name": "Mullins Center", "children": ['Mullins Practice Rink', 'Champions Center', 'Tennis Courts']},
+  { "name": "Mullins Practice Rink", "children": ['Lorden Field', 'Mullins Center', 'Physical Plant', 'Parking Office'] },
+  { "name": "Munson", "children": ['Herter', 'Whitmore Administration', 'Garber Field', 'Middlesex'] },
   { "name": "New Africa", "children": [] },
   { "name": "Newman Center", "children": [] },
   { "name": "North A", "children": [] },
