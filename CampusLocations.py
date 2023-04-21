@@ -169,7 +169,7 @@ campusLocations = [ # will create an api for this
   { "name": "Pierpont", "children": ['Cance', 'Moore', 'Berkshire Dining', 'Toddler House'] },
   { "name": "Police", "children": ['Cashin', 'Grayson'] },
   { "name": "Prince", "children": ['Chabad House', 'Kennedy', 'Crampton', 'Coolidge'] },
-  { "name": "PVTA Bus Garage", "children": ['Transit Facility', 'Auxillary Services Warehouse', 'Engineering Laboratory 2', 'Computer Science Bldg.'] },
+  { "name": "PVTA Bus Garage", "children": ['Transit Facility', 'Auxillary Services Warehouse', 'Engineering Laboratory 2', 'Computer Science Bldg.']},
   { "name": "Recreation Center", "children": [] },
   { "name": "Renaissance Center", "children": [] },
   { "name": "Residence Hall Security (Dickinson)", "children": [] },
